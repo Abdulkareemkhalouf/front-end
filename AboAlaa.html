@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KHALOUF</title>
+</head>
+
+<body bgcolor="#affff">
+    <form action="">
+        <table>
+            <tr>
+                <th><label for="n">user name:</label></th>
+                <td><input type="text" name="n" id="n"></td>
+                <td><input type="submit" name="" id=""></td>
+
+            </tr>
+        </table>
+    </form>
+    <q>Hello World</q><br>
+    <code>cout<<"Hello World</code>
+    <hr>
+    <h1>Forms</h1>
+    <!-- <form action="#"
+ method="post" 
+ autocomplete="off" 
+ novalidate
+ enctype="multipart/form-data"
+ target="_blank">  -->
+    <form action="#" method="post" autocomplete="off" novalidate>
+        <fieldset>
+            <legend>User Information:</legend>
+            <div>
+                <label for="username">User Name:</label>
+                <input type="text" name="username" id="username" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="text" name="Password" id="password">
+
+            </div>
+            <div>
+                <label for="sammary">Summary:</label>
+                <textarea name="sammary" id="sammary" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <input type="submit" value="Send">
+        <input type="reset" value="cancel">
+    </form>
+    <br>
+    <fieldset>
+
+        <legend>
+            Choise options
+
+        </legend>
+        <div>
+
+            <input type="radio" name="gender" id="femal">
+            <label for="femal">أنثى</label>
+            <input type="radio" name="gender" id="male">
+
+            <label for="male">ذكر</label>
+
+
+        </div>
+        <div>
+            <input type="checkbox" name="tea" id="tea">
+            <label for="tea">Tea</label>
+
+        </div>
+        <div>
+            <label for="city">City:</label>
+            <select name="city" id="city" multiple>
+                <option value="dam">دمشق</option>
+                <option value="dam">حلب</option>
+                <option value="dam">حمص</option>
+                <option value="dam">اللاذقية</option>
+                <option value="dam">طرطوس</option>
+                <option value="dam">الرقة</option>
+                <option value="dam">دير الزور</option>
+                <option value="dam">الحسكة</option>
+                <option value="dam">السويداء</option>
+                <option value="dam">القنيطرة</option>
+                <option value="dam">درعا</option>
+                <option value="dam">ادلب</option>
+
+            </select>
+        </div>
+    </fieldset>
+    <br>
+    <form action="#">
+        <fieldset>
+            <legend>Extra Fils</legend>
+            <label for="email">User Email</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="bdata">Birthday</label>
+            <input type="date" name="data" id="bdata" max="2000-01-01" min="1988-01-01">
+            <br>
+            <div>
+                <label for="color">Color</label>
+                <input type="color" name="color" id="color">
+            </div>
+            <br>
+            <div>
+                <label for="year">Year</label>
+                <input type="number" name="year" id="year" max="2010" min="2000" step="2">
+
+            </div>
+            <br>
+            <div>
+                <label for="tel">Tel:</label>
+                <input type="tel" name="tel" id="tel" pattern="0,[0-9],{10}">
+            </div>
+        </fieldset>
+        <input type="submit" value="Send">
+        <input type="reset" value="cancel">
+
+    </form>
+    <br>
+    <br>
+    <br>
+
+</body>
+
+</html>
